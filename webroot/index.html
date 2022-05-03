@@ -3,11 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Countries Search</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    <script src="/js/app.js"></script>
-  	<h1>Country Search Template</h1>
-  	<p>This is here to get you started.</p>
+    <script src="./js/app.js"></script>
+    <form id="countryForm" action="">
+      <label for="country">Country Name:</label> 
+      <input id="countryName" type="text" name="country">
+      <input type="checkbox" id="searchFullName" name="searchFullName">
+      <label for="searchFullName">Search full name</label><br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <div id="result"></div>
   </body>
 </html>

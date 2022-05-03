@@ -1,2 +1,2 @@
 #!/bin/bash
-php -S localhost:8765 -t webroot/ 
+php -S localhost:8765 -t webroot/
